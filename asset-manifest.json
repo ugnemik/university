@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/university-website/static/css/main.dfb77c1e.css",
+    "main.js": "/university-website/static/js/main.893b210e.js",
+    "static/media/campus-2.jpg": "/university-website/static/media/campus-2.8f9351e03c07ebd4fc8d.jpg",
+    "static/media/student.jpg": "/university-website/static/media/student.853fa19e3fc848251f9f.jpg",
+    "static/media/logo.png": "/university-website/static/media/logo.c045878d8435de8a41e3.png",
+    "index.html": "/university-website/index.html",
+    "main.dfb77c1e.css.map": "/university-website/static/css/main.dfb77c1e.css.map",
+    "main.893b210e.js.map": "/university-website/static/js/main.893b210e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb77c1e.css",
+    "static/js/main.893b210e.js"
+  ]
+}
