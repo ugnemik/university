@@ -8,11 +8,10 @@ import Study from "./pages/Study";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/university">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/university" element={<Home />} />
         <Route path="/study" element={<Study />} />
       </Routes>
       <Footer />
