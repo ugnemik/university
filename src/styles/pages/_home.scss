@@ -1,0 +1,45 @@
+.homepage {
+  &__columns {
+    display: flex;
+    flex-direction: row;
+    gap: $flex-gap-l;
+    align-items: stretch;
+    margin-top: $container-spacing;
+    margin-bottom: $container-spacing;
+
+    &-image {
+      flex: 1.5;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+
+    &-text {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      .btn {
+        margin-top: $margin-m;
+      }
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+      &-image,
+      &-text {
+        width: 100%;
+        flex: none;
+      }
+
+      &-image img {
+        height: auto;
+      }
+    }
+  }
+}

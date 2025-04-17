@@ -1,0 +1,133 @@
+.header {
+  background-color: $dark-color;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: $flex-gap-l;
+    height: 100px;
+  }
+
+  &__logo {
+    img {
+      width: 180px;
+    }
+  }
+
+  &__navbar {
+    display: block;
+    position: relative;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &-toggle {
+      display: block;
+      z-index: 3;
+      cursor: pointer;
+      background: none;
+      border: none;
+
+      span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: $white-color;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+      }
+
+      span:nth-child(2) {
+        transform-origin: 0% 0%;
+      }
+
+      span:nth-child(3) {
+        transform-origin: 0% 100%;
+      }
+
+      &.is-open {
+        span:nth-child(1) {
+          transform: rotate(45deg) translate(-2px, -1px);
+        }
+
+        span:nth-child(2) {
+          opacity: 0;
+          transform: rotate(0deg) scale(0.2, 0.2);
+        }
+
+        span:nth-child(3) {
+          transform: rotate(-45deg) translate(0, -1px);
+        }
+      }
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+
+      &:hover span {
+        background: $accent-color;
+      }
+    }
+
+    &-links {
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: $flex-gap-sm;
+
+        li {
+          list-style: none;
+
+          a {
+            color: $white-color;
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      @media (max-width: 768px) {
+        position: fixed;
+        top: 100px;
+        right: 0;
+        transform: translateX(100%);
+        height: 100vh;
+        width: 100%;
+        padding: $padding-l;
+        overflow-y: auto;
+        background: $dark-color;
+        -webkit-font-smoothing: antialiased;
+        transition: transform 0.4s ease-in-out;
+        z-index: 2;
+        opacity: 0;
+
+        ul {
+          flex-direction: column;
+
+          li {
+            border-bottom: 1px solid $grey-color;
+            padding-bottom: $flex-gap-sm;
+
+            &:hover {
+              border-bottom: 1px solid $accent-color;
+            }
+
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+
+        &.is-open {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

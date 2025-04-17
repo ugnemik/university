@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  font-family: "Crimson Pro", serif;
+  font-style: normal;
+  font-size: 1.125rem; // slightly larger than 1.1rem (18px)
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Pro", serif;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: $margin-m;
+
+  // Responsive font sizes
+  @media (max-width: 768px) {
+    font-weight: 700;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+
+h2 {
+  font-size: 2.25rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+  }
+}
+
+h3 {
+  font-size: 1.75rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+p,
+a,
+li,
+span {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}

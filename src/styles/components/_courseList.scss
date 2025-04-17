@@ -1,0 +1,120 @@
+.courses {
+  margin-top: $container-spacing;
+  margin-bottom: $container-spacing;
+  &-listing {
+    margin-top: 3rem;
+    display: flex;
+    gap: $flex-gap-l;
+
+    &__filters {
+      flex: 1;
+
+      &-filter {
+        margin-bottom: $margin-m;
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+          margin-bottom: 0.5rem;
+        }
+
+        label {
+          position: relative;
+          width: max-content;
+        }
+
+        input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+          position: absolute;
+        }
+
+        input:checked ~ .checkmark {
+          background-color: $dark-color;
+        }
+
+        input:focus + .checkmark {
+          outline: 2px solid $accent-color;
+          outline-offset: 1px;
+        }
+
+        .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          background-color: $grey-color;
+          cursor: pointer;
+        }
+
+        .checkmark:hover {
+          background-color: $dark-grey-color;
+        }
+
+        .checkmark::after {
+          display: none;
+          content: "";
+          position: absolute;
+          left: 9px;
+          top: 5px;
+          width: 5px;
+          height: 10px;
+          border: solid white;
+          border-width: 0 3px 3px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+        /* Show the checkmark when checked */
+        input:checked ~ .checkmark:after {
+          display: block;
+        }
+
+        .filter-label {
+          margin-left: 35px;
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    &__card-container {
+      flex: 2;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      &__filters,
+      &__card-container {
+        flex: 1;
+      }
+
+      &__filters {
+        flex: 1;
+      }
+    }
+
+    &__pagination {
+      &-page {
+        border-radius: 5px;
+        background-color: transparent;
+        border: 2px solid $grey-color;
+        padding: $padding-sm $padding-m;
+        &:hover,
+        &:active {
+          border: 2px solid $accent-color;
+        }
+
+        &:disabled:hover {
+          border: 2px solid $grey-color;
+        }
+      }
+      &-count {
+        display: inline-block;
+        margin: 0 $margin-m;
+      }
+    }
+  }
+}

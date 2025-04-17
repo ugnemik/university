@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Media BA",
+    "description": "Explore creative digital storytelling and media production.",
+    "level": "Undergraduate",
+    "department": "Media",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 2,
+    "title": "Software Engineering MSc",
+    "description": "Deep dive into advanced software design and development.",
+    "level": "Postgraduate",
+    "department": "Engineering",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 3,
+    "title": "Psychology BSc",
+    "description": "Study human behavior and cognitive processes.",
+    "level": "Undergraduate",
+    "department": "Social Sciences",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 4,
+    "title": "Biomedical Science BSc",
+    "description": "Learn about biology applied to medicine and health.",
+    "level": "Undergraduate",
+    "department": "Life Sciences",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 5,
+    "title": "Business Administration MBA",
+    "description": "Gain leadership and business strategy skills.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 6,
+    "title": "Graphic Design BA",
+    "description": "Develop your visual communication and design thinking.",
+    "level": "Undergraduate",
+    "department": "Arts",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 7,
+    "title": "Civil Engineering BEng",
+    "description": "Build the future with structural and infrastructure projects.",
+    "level": "Undergraduate",
+    "department": "Engineering",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 8,
+    "title": "Marketing MSc",
+    "description": "Master marketing analytics, branding, and strategy.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 9,
+    "title": "Computer Science BSc",
+    "description": "Learn programming, algorithms, and systems design.",
+    "level": "Undergraduate",
+    "department": "Computing",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 10,
+    "title": "Education MA",
+    "description": "Explore educational theory and teaching practice.",
+    "level": "Postgraduate",
+    "department": "Education",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 11,
+    "title": "Environmental Science BSc",
+    "description": "Understand ecological systems and environmental issues.",
+    "level": "Undergraduate",
+    "department": "Life Sciences",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 12,
+    "title": "Finance MSc",
+    "description": "Advance your financial analysis and investment skills.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 13,
+    "title": "Sociology BA",
+    "description": "Study social patterns and cultural dynamics.",
+    "level": "Undergraduate",
+    "department": "Social Sciences",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 14,
+    "title": "Architecture MArch",
+    "description": "Design buildings with creativity and sustainability.",
+    "level": "Postgraduate",
+    "department": "Architecture",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 15,
+    "title": "Law LLB",
+    "description": "Explore legal systems and justice foundations.",
+    "level": "Undergraduate",
+    "department": "Law",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 16,
+    "title": "Journalism MA",
+    "description": "Learn to report, write, and produce compelling stories.",
+    "level": "Postgraduate",
+    "department": "Media",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 17,
+    "title": "Physics BSc",
+    "description": "Investigate the laws that govern the universe.",
+    "level": "Undergraduate",
+    "department": "Science",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 18,
+    "title": "Cybersecurity MSc",
+    "description": "Protect data and systems from digital threats.",
+    "level": "Postgraduate",
+    "department": "Computing",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 19,
+    "title": "Fine Art BA",
+    "description": "Express ideas through visual art practices.",
+    "level": "Undergraduate",
+    "department": "Arts",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 20,
+    "title": "Public Health MPH",
+    "description": "Promote community health through research and policy.",
+    "level": "Postgraduate",
+    "department": "Health",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 21,
+    "title": "Mechanical Engineering BEng",
+    "description": "Design and build mechanical systems and devices.",
+    "level": "Undergraduate",
+    "department": "Engineering",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 22,
+    "title": "Human Resource Management MSc",
+    "description": "Manage people, culture, and organizational growth.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 23,
+    "title": "Philosophy BA",
+    "description": "Explore ethics, logic, and the nature of existence.",
+    "level": "Undergraduate",
+    "department": "Humanities",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 24,
+    "title": "Data Science MSc",
+    "description": "Master big data analysis and machine learning.",
+    "level": "Postgraduate",
+    "department": "Computing",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 25,
+    "title": "History BA",
+    "description": "Understand human history from ancient to modern times.",
+    "level": "Undergraduate",
+    "department": "Humanities",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 26,
+    "title": "International Relations MA",
+    "description": "Analyze global politics and diplomacy.",
+    "level": "Postgraduate",
+    "department": "Social Sciences",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 27,
+    "title": "Astronomy BSc",
+    "description": "Study stars, galaxies, and the cosmos.",
+    "level": "Undergraduate",
+    "department": "Science",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 28,
+    "title": "Interior Design MA",
+    "description": "Design functional and aesthetic interior spaces.",
+    "level": "Postgraduate",
+    "department": "Arts",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 29,
+    "title": "Chemistry BSc",
+    "description": "Investigate the composition and properties of matter.",
+    "level": "Undergraduate",
+    "department": "Science",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 30,
+    "title": "Economics MSc",
+    "description": "Understand economic theory, models, and applications.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 31,
+    "title": "Anthropology BA",
+    "description": "Explore human culture and social behavior.",
+    "level": "Undergraduate",
+    "department": "Social Sciences",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 32,
+    "title": "Project Management MSc",
+    "description": "Lead and deliver successful projects across industries.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 33,
+    "title": "Music Technology BSc",
+    "description": "Combine sound engineering with creative production.",
+    "level": "Undergraduate",
+    "department": "Media",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 34,
+    "title": "Artificial Intelligence MSc",
+    "description": "Advance your knowledge in intelligent systems.",
+    "level": "Postgraduate",
+    "department": "Computing",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 35,
+    "title": "Criminology BA",
+    "description": "Study crime, justice, and law enforcement systems.",
+    "level": "Undergraduate",
+    "department": "Law",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 36,
+    "title": "Supply Chain Management MSc",
+    "description": "Optimize logistics and global supply networks.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 37,
+    "title": "Drama and Theatre BA",
+    "description": "Perform and analyze dramatic arts and performance.",
+    "level": "Undergraduate",
+    "department": "Arts",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 38,
+    "title": "Sports Science MSc",
+    "description": "Enhance performance through science and technology.",
+    "level": "Postgraduate",
+    "department": "Health",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 39,
+    "title": "Linguistics BA",
+    "description": "Study the science of language and communication.",
+    "level": "Undergraduate",
+    "department": "Humanities",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 40,
+    "title": "Urban Planning MSc",
+    "description": "Shape cities through sustainable planning and design.",
+    "level": "Postgraduate",
+    "department": "Architecture",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 41,
+    "title": "Nutrition BSc",
+    "description": "Understand human health through food and diet.",
+    "level": "Undergraduate",
+    "department": "Health",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 42,
+    "title": "Strategic Communication MA",
+    "description": "Craft impactful messaging in media and marketing.",
+    "level": "Postgraduate",
+    "department": "Media",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 43,
+    "title": "Geography BA",
+    "description": "Explore physical and human geography interactions.",
+    "level": "Undergraduate",
+    "department": "Science",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 44,
+    "title": "Robotics MSc",
+    "description": "Design and program intelligent robotic systems.",
+    "level": "Postgraduate",
+    "department": "Engineering",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 45,
+    "title": "Political Science BA",
+    "description": "Understand government, policy, and political systems.",
+    "level": "Undergraduate",
+    "department": "Social Sciences",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 46,
+    "title": "Accounting and Finance MSc",
+    "description": "Advance financial reporting and investment knowledge.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 47,
+    "title": "Theatre Production BA",
+    "description": "Master backstage roles in live and recorded shows.",
+    "level": "Undergraduate",
+    "department": "Arts",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 48,
+    "title": "Digital Marketing MSc",
+    "description": "Lead digital campaigns with strategy and creativity.",
+    "level": "Postgraduate",
+    "department": "Media",
+    "startDate": "September 2026"
+  },
+  {
+    "id": 49,
+    "title": "Game Design BSc",
+    "description": "Build immersive digital experiences and games.",
+    "level": "Undergraduate",
+    "department": "Computing",
+    "startDate": "September 2025"
+  },
+  {
+    "id": 50,
+    "title": "International Business MSc",
+    "description": "Navigate business in a globalized economy.",
+    "level": "Postgraduate",
+    "department": "Business",
+    "startDate": "September 2026"
+  }
+]

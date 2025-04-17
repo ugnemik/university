@@ -1,0 +1,39 @@
+.course-card {
+  border-bottom: 2px solid $grey-color;
+  margin-bottom: $margin-l;
+  padding-bottom: $padding-l;
+  cursor: pointer;
+  display: block;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover .course-card__title {
+    text-decoration: underline;
+  }
+
+  &__text {
+    margin-bottom: $margin-m;
+  }
+
+  &__category {
+    display: inline-block;
+    background-color: $dark-color;
+    color: $light-color;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 3px 7px;
+    font-size: 0.9rem;
+    margin-right: $margin-sm;
+
+    &:nth-of-type(2) {
+      background-color: $accent-color;
+      color: $dark-color;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.card-container {
+  margin-top: $container-spacing;
+  margin-bottom: $container-spacing;
+
+  &__title {
+    margin-bottom: $margin-l;
+  }
+  &__content {
+    display: grid;
+    gap: $flex-gap-m;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    // ⬅️ Medium screens (tablets): 2 columns
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    // ⬅️ Small screens (mobiles): 1 column
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

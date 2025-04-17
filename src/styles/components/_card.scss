@@ -1,0 +1,23 @@
+.card {
+  background-color: $dark-color;
+  @include contrast-text($dark-color);
+  padding: $padding-l;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__title {
+    color: $accent-color;
+    margin-bottom: $margin-m;
+  }
+  &__link {
+    margin-top: auto;
+    padding-top: $padding-m;
+    padding-bottom: 2px;
+    border-bottom: 2px solid $accent-color;
+    &:hover {
+      border-color: transparent;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.accent-border {
+  margin: $margin-l 0;
+  display: block;
+  max-width: 100px;
+  background: $accent-color;
+  height: 2px;
+}
+
+.btn {
+  background-color: $dark-color;
+  color: $white-color;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid $dark-color;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $light-color;
+    color: $dark-color;
+  }
+
+  &--large {
+    font-size: 1.6rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  &--accent {
+    background-color: $accent-color;
+    color: $dark-color;
+    border: 3px solid $accent-color;
+  }
+}
+
+@mixin contrast-text($bg-color) {
+  background-color: $bg-color;
+  color: if(lightness($bg-color) > 50%, #1c1c1c, white);
+}
